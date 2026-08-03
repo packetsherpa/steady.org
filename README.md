@@ -1,7 +1,8 @@
 # Steady
 
-Source for **Steady** — Damien DeVille's writing on technology, life, and music,
-published at [steady.org](https://steady.org/). Built with
+Source for **Steady** — Damien DeVille's music and personal writing, published
+at [steady.org](https://steady.org/). Technology writing lives at
+[Default Deny](https://packetsherpa.org/). Built with
 [Hugo](https://gohugo.io/) and the
 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, deployed to
 GitHub Pages.
@@ -25,14 +26,12 @@ The local site is available at `http://localhost:1313/`. `-D` includes drafts.
 ## Writing a post
 
 ```sh
-hugo new content technology/my-note.md               # technology note
 hugo new content --kind show music/a-show.md         # live-show note
 hugo new content --kind listening music/an-album.md  # listening note
 ```
 
 The `music` section has two archetypes (`show` and `listening`), so pass
 `--kind` to choose one; without it you get the generic default skeleton.
-`technology` matches its archetype by section name automatically.
 
 New content is a draft (`draft: true`) until you set `draft: false`.
 
@@ -43,7 +42,7 @@ front matter, gotchas, and publishing from a phone or tablet.
 
 - **Header image:** set `cover.image` in front matter. For a per-post image,
   make the post a page bundle (a folder with `index.md`) and drop the image in
-  it — see `content/technology/it-wasnt-air-gapped/` for a working example.
+  it — see `content/music/stephen-wilson-jr-2026-07-25/` for a working example.
 - **In-body image:** `![Descriptive alt text](photo.jpg)` with the file in the
   post's bundle folder.
 

@@ -7,20 +7,28 @@
 ## Goal
 
 Maintain and publish **Steady** (steady.org), Damien DeVille's writing-first
-Hugo site — technology notes, music writing, and personal posts — with a
-low-friction "write markdown locally, push to `main`" workflow.
+Hugo site for music and personal writing, with a low-friction "write markdown
+locally, push to `main`" workflow.
 
 ## Active Work
 
-- The site was rebuilt writing-first: the daily-playlist archive, the SongShift
-  automation, the browser CMS, and the bespoke layouts were removed. Rendering
-  now comes from the PaperMod theme (git submodule under `themes/PaperMod`).
-- Surviving content: one technology note (`it-wasnt-air-gapped`), one live-show
-  note (Death Cab for Cutie at Merriweather), and the about page.
-- Renaming the site to **Steady** at **steady.org**. Repo changes done
-  (`static/CNAME`, `baseURL`, site title, docs). Going live still needs DNS for
-  steady.org pointed at GitHub Pages and the custom domain set in Pages
-  settings. The old damiendeville.com is being retired (no redirect).
+- Live at `https://steady.org/`.
+- **Cut down to music on 2026-08-03.** `content/technology/`,
+  `archetypes/technology.md`, and `ideas/technology/` are gone; `hugo.toml`,
+  `AGENTS.md`, `README.md`, `WRITING.md`, `STYLE.md`, and the about/home copy
+  now describe a music-only site. Technology writing lives at
+  `packetsherpa.org`. No redirects — Damien deferred them on 2026-08-02 because
+  readership is negligible.
+- The `egress-filtering-is-the-control-we-never-implemented` note was drafted
+  here on 2026-08-01/02, *after* the split, so it was never carried over. It was
+  moved to `packetsherpa.org` on 2026-08-03 before the deletion. Its old URL
+  (`steady.org/technology/egress-filtering-.../`) now 404s by design.
+- Surviving content: two live-show notes (Death Cab for Cutie at Merriweather,
+  Stephen Wilson Jr. at Pier Six) and the about page.
+- **damiendeville.com is no longer retired.** It was this site's old domain and
+  the plan was to drop it; as of 2026-08-03 it serves `packetsherpa.org`'s
+  content as a mirror, because DNS filters block that newly registered domain.
+  Do not repurpose or release that domain.
 
 ## Blockers
 
@@ -28,6 +36,10 @@ low-friction "write markdown locally, push to `main`" workflow.
 
 ## Next
 
-- Write posts. New technology notes and music/show notes are the main work.
-- Optional polish: a favicon and site OpenGraph image, and a short bio block on
-  the home page if desired (PaperMod `homeInfoParams`).
+- Write posts. Music and show notes are the only content type here now.
+- Two pre-existing content bugs worth a cleanup pass: the tag `live-mudic`
+  (typo for `live-music`) on a show note, and the cover alt text "Stephen
+  Willson Jr." (should be "Wilson") in
+  `content/music/stephen-wilson-jr-2026-07-25/`. Tags are also inconsistent
+  (`show`, `shows`, `concert`).
+- Optional polish: a favicon and site OpenGraph image.

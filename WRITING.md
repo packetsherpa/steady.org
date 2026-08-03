@@ -19,16 +19,14 @@ Install Hugo (`brew install hugo` on macOS). No Node, no Python — just Hugo.
 1. **Create the post.**
 
    ```sh
-   hugo new content technology/my-note.md               # technology note
    hugo new content --kind show music/a-show.md         # live-show note
    hugo new content --kind listening music/an-album.md  # listening note
    ```
 
-   Each scaffolds the file with `draft: true`. The `technology` section matches
-   its archetype (`archetypes/technology.md`) by name automatically. The `music`
-   section holds two kinds — `show` and `listening` — and there is no default
-   `music` archetype, so pass `--kind` to pick one; without it Hugo falls back
-   to the generic `archetypes/default.md` skeleton.
+   Each scaffolds the file with `draft: true`. The `music` section holds two
+   kinds — `show` and `listening` — and there is no default `music` archetype,
+   so pass `--kind` to pick one; without it Hugo falls back to the generic
+   `archetypes/default.md` skeleton.
 
 2. **Write it.** Edit the front matter and body in Markdown. While
    `draft: true`, it is invisible to the world.
@@ -61,7 +59,7 @@ For a **header image**, make the post a *page bundle* — a folder with
 `index.md` — and put the image inside it:
 
 ```
-content/technology/my-note/
+content/music/a-show/
 ├── index.md
 └── feature.jpg
 ```
@@ -82,7 +80,7 @@ inline:
 ![Alt text describing the photo](photo.jpg)
 ```
 
-Working examples to copy: `content/technology/it-wasnt-air-gapped/` and
+Working examples to copy: `content/music/stephen-wilson-jr-2026-07-25/` and
 `content/music/death-cab-for-cutie-merriweather-2026-07-21/`.
 
 ## Front matter reference
@@ -115,7 +113,7 @@ and makes a future theme swap a one-line change.
   two harmless Hugo deprecation warnings that would fail the build under that
   flag. Use `hugo server -D` and `hugo --gc --minify` (what CI runs).
 - The About page and section intros are Markdown too: `content/about.md`,
-  `content/technology/_index.md`, `content/music/_index.md`.
+  `content/music/_index.md`.
 
 ## Publishing from a phone or tablet
 
@@ -130,10 +128,10 @@ and push to `main` can publish. Ranked by how well each handles a real post
    the only mobile path that cleanly handles a header image + bundle.
 
 2. **GitHub in a browser or the GitHub mobile app — quickest for text.**
-   Go to `content/technology/`, "Add file → Create new file", name it
+   Go to `content/music/`, "Add file → Create new file", name it
    `my-note.md`, paste front matter + body, commit to `main`. Live in ~30s. To
    include an image without a computer, use "Add file → Upload files" and type a
-   path like `content/technology/my-note/index.md` in the filename to create the
+   path like `content/music/a-show/index.md` in the filename to create the
    folder, then upload the image into the same folder. Fiddlier than Working
    Copy, but it works.
 

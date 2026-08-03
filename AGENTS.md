@@ -1,6 +1,6 @@
 # Steady (steady.org) — Agent Instructions
 
-Hugo source for Steady, Damien DeVille's writing on technology, life, and music.
+Hugo source for Steady, Damien DeVille's music and personal writing.
 
 This file is the single source of truth for any agent working in this repo
 (Claude Code, Codex, or others). `CLAUDE.md` and `GEMINI.md` are symlinks to
@@ -10,11 +10,16 @@ them here. This file covers only what is specific to Steady (steady.org).
 ## What This Tool Is
 
 This repository builds and deploys a Hugo site at `https://steady.org/`.
-It is a writing-first personal publication. The content areas are:
+It is a writing-first personal publication about listening. The content areas
+are:
 
-- `content/technology/` for technology notes
-- `content/music/` for listening notes and live-show notes
+- `content/music/` for listening notes and live-show notes — the only post section
 - `content/about.md` for the about page
+
+Technology writing lives in a separate repo and site, Default Deny
+(`packetsherpa.org`), which also serves at `damiendeville.com`. Do not add
+technology notes here. The three that used to live in `content/technology/`
+moved there on 2026-08-03; this site keeps only music and personal writing.
 
 The site renders through the [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 theme, which is vendored as a git submodule under `themes/PaperMod`.
@@ -32,8 +37,8 @@ Workflow docs:
 ## Writing Style
 
 `STYLE.md` is the writing standard for all reader-facing site content. Read and
-apply it whenever creating or substantively editing technology notes, music
-writing, show notes, or personal posts.
+apply it whenever creating or substantively editing music writing, show notes,
+or personal posts.
 
 @STYLE.md
 
@@ -43,7 +48,7 @@ writing, show notes, or personal posts.
   pushing a non-draft post to `main`.
 - For a post with a header image, make it a page bundle (a folder with
   `index.md`) and set `cover.image` in front matter. See
-  `content/technology/it-wasnt-air-gapped/` for a working example.
+  `content/music/stephen-wilson-jr-2026-07-25/` for a working example.
 - In-body images use `![alt text](photo.jpg)` with the file in the post's
   bundle folder.
 

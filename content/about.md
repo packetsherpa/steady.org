@@ -1,16 +1,14 @@
 ---
 title: "About"
-description: "Damien DeVille writes about security, artificial intelligence, technical leadership, and music."
+description: "Damien DeVille on the records he keeps returning to and the shows he goes to see."
 ---
 
-I’m Damien DeVille. For more than 25 years, I’ve worked across networking and cybersecurity, helping organizations understand complex systems, make sound architectural choices, and turn technology into outcomes that hold up in the real world.
+I'm Damien DeVille. This site is about listening: the records I keep returning to, and the shows I go out to see.
 
-Today I work for the largest cyber security company in the world. My career has included hands-on engineering, systems architecture, SASE, cloud, and technical leadership. Across those roles, the recurring work has been translating complexity: listening carefully, finding the real problem, and making a path forward clear.
+I write about music the way I actually hear it. A specific arrangement, the sequencing of a set, the sound of a particular room on a particular night. These aren't reviews and there are no scores. It's closer to a notebook I happen to keep in public.
 
-This site is where I follow ideas beyond the boundaries of a particular project or employer. My technology notes cover security, artificial intelligence, complex systems, and leadership—grounded in experience, but curious about what comes next. They are a practical record of what I’m learning and what seems worth keeping.
+My working life is in networking and cybersecurity, and I write about that too, just not here. That writing lives at [Default Deny](https://packetsherpa.org/).
 
-Music is the other thread running through the site. I write about the records I keep returning to and the live shows I attend.
-
-For a more complete professional history, [find me on LinkedIn](https://www.linkedin.com/in/ddeville/).
+For a professional history, [find me on LinkedIn](https://www.linkedin.com/in/ddeville/).
 
 The views expressed here are my own.

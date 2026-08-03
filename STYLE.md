@@ -1,26 +1,19 @@
 # Style & Voice
 
-This site is a personal publication about technology, life, and music. It should read like Damien DeVille: an experienced technologist and curious listener thinking in public, not a consultancy report, a press release, or generic AI prose.
+This site is a personal publication about music and life. It should read like Damien DeVille: a curious listener thinking in public, not a review column, a press release, or generic AI prose.
+
+Technology writing lives at [Default Deny](https://packetsherpa.org/) and follows that repo's `STYLE.md`. This file covers music and personal writing only.
 
 ## Core voice
 
 - Write with earned confidence. State the observation, explain the reasoning, and name the practical consequence.
 - Use first person when experience is the evidence: “I saw this firsthand,” “I keep coming back to,” or “I was wrong about.” Do not manufacture personal anecdotes.
-- Write for technically literate readers without performing expertise. Explain unfamiliar terms when they matter; do not explain basics just to sound accessible.
-- Prefer specific, concrete language over elevated language. “A package proxy became a bridge into a more-connected network” is better than “a pivotal moment in the evolving AI-security landscape.”
+- Explain unfamiliar terms when they matter; do not explain basics just to sound accessible.
+- Prefer specific, concrete language over elevated language. “He played it alone, half a step down, and let the last chord ring out” is better than “a transcendent moment in a career-defining set.”
 - Use contractions when they sound natural. Precision, not stiffness, creates authority.
 - Be direct, but leave room for uncertainty. Distinguish fact, interpretation, and open question.
 
 ## What the writing should do
-
-### Technology notes
-
-- Start with the actual claim or question. Do not spend several paragraphs announcing that a topic is important.
-- Anchor claims in primary sources, direct experience, or clearly identified reporting. Link close to the claim it supports.
-- Separate model capability from system design, product marketing from evidence, and a possible risk from a demonstrated one.
-- Offer concrete implications: an architecture decision, an operating practice, a question to ask, or a control to test.
-- Critique ideas and systems fairly. Do not write a takedown when the evidence supports a narrower claim.
-- Prefer “this is a familiar failure mode” to “this changes everything.”
 
 ### Music and show notes
 
@@ -47,7 +40,7 @@ This site is a personal publication about technology, life, and music. It should
 ## Evidence, currency, and attribution
 
 - Do not make factual claims from memory when a primary source is available.
-- For changing topics—security incidents, AI capabilities, products, policy, and current events—verify the latest public record before publishing.
+- For anything that can be checked—tour dates, personnel, pressings, reissues—verify the public record before publishing.
 - Attribute claims precisely: name the person, organization, report, or publication. Avoid “experts say,” “it is widely believed,” and similar vague attributions.
 - Use an explicit date when relative time would go stale or create ambiguity.
 - Mark inference as inference. Use formulations such as “the public record suggests,” “I read this as,” or “the evidence does not establish.”
@@ -57,8 +50,8 @@ This site is a personal publication about technology, life, and music. It should
 
 - Write complete sentences in prose. Fragments are fine in headings, captions, lists, and intentionally punchy short runs.
 - Prefer active voice when it makes responsibility clear.
-- Keep terms distinct. Do not use “sandboxed,” “isolated,” “segmented,” and “air-gapped” as synonyms when the distinction is the point.
-- Use standard technical spelling and hyphenation: “zero-day,” “least-privilege,” “air-gapped,” “open-source,” and “first-person.”
+- Keep terms distinct. Do not use “set,” “show,” and “tour” as synonyms when the distinction is the point.
+- Get names right: artists, venues, album and song titles, and their capitalization.
 - Use curly quotation marks and apostrophes consistently, matching the site’s existing typography.
 - Use em dashes sparingly and deliberately. A comma, colon, parentheses, or a new sentence is often better.
 - Bold sparingly. Use it for a term on first use or a useful label, not as a highlighter.
@@ -74,7 +67,6 @@ Before publishing, remove or rewrite:
 - Formulaic reversals: “it’s not X, it’s Y” and “not only X but also Y.” State the point directly.
 - Decorative lists of three assembled for rhythm rather than meaning.
 - Generic headings such as “Challenges,” “Key Takeaways,” or “Future Outlook” unless they accurately describe a necessary section.
-- Anthropomorphic claims about models that exceed the evidence. Describe actions, tools, permissions, and architecture.
 
 ## Images and accessibility
 
